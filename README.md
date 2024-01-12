@@ -51,7 +51,7 @@ To create default superuser run `make superuser`, credentials will be printed on
 
 Api documentation is present with OpenAPI specs. Serve swagger ui with OpenAPI specs in docker:-
 
-`docker run -p 80:8080 -e SWAGGER_JSON=/schema.yml -v ${PWD}/openapi/ws-openapi-spec.yaml:/schema.yml swaggerapi/swagger-ui
+`docker run -p 80:8080 -e SWAGGER_JSON=/schema.yml -v ${PWD}/openapi/ecart-openapi-spec.yaml:/schema.yml swaggerapi/swagger-ui
 `
 
 <br/>
