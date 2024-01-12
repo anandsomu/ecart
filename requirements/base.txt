@@ -1,0 +1,7 @@
+django
+django-environ
+django-extensions
+djangorestframework
+djangorestframework-simplejwt
+drf-spectacular
+psycopg2

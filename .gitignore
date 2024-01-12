@@ -1,0 +1,58 @@
+# Executables #
+###############
+*.pyc
+
+# Temporary files #
+###################
+*~
+*.swo
+*.swp
+*.orig
+.elasticbeanstalk/
+.anvil
+celerybeat-schedule
+.DS_Store
+
+# Some VIM related files that are not required
+.project.ide.files
+
+# Sqlite files
+*.db
+
+# Coverage files
+.coverage
+htmlcov
+# Media directory
+media
+
+# Log directory
+log
+logs
+
+# Project files
+.ropeproject
+.idea
+django.wsgi
+supervisord.conf
+
+# Docker compose files
+*env*
+docker-compose-build*.yml
+
+# Environments
+.venv
+env/
+venv/
+ENV/
+
+# DB SQL FIle
+*.sql
+.python-version
+postgresql-data
+
+# Static files and folders
+static_root/
+
+# Sample env files
+!.doc.env
+!sample.env
